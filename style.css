@@ -1,0 +1,48 @@
+@import url('./webfontkit-20200616-153041/stylesheet.css');
+
+#table{
+    border: solid;
+}
+html
+{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./RedTicTacToe.jpg");
+}
+
+#title{
+    text-align: center;
+    font-family: 'ledregular';
+    font-size: 70px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: yellow;
+}
+#middle{
+    height: 50%;
+    opacity: 35%;
+}
+#table_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#table{
+    flex: initial;
+    height: 350px;
+    width: 350px;
+    margin: 6vw;
+    box-shadow: 0 0 40px yellow;
+}
+tr > td
+{
+    border: solid;
+    border-color: yellow;
+    border-width: 5px;
+    
+}
