@@ -44,5 +44,11 @@ tr > td
     border: solid;
     border-color: yellow;
     border-width: 5px;
-    
+    background-size: contain;
+}
+
+h2{
+    font-family: 'ledregular';
+    font-size: 35px;
+    color: white;
 }
