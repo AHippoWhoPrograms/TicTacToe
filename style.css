@@ -52,3 +52,12 @@ h2{
     font-size: 35px;
     color: white;
 }
+#reset_div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#reset{
+    width: 7vw;
+    height: 5vw;
+}
